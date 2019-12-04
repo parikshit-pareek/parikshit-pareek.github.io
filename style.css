@@ -221,7 +221,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
+	/* background-image: url("assets/images/head-featured-bg.jpg");*/
 	display: inline;
 	float: left;
 	width: 100%;
@@ -411,6 +411,15 @@ button:focus {
 	width: 100%;
 }
 
+.mu-qu-area {
+	display: inline;
+	float: left;
+	text-align: justify;
+	margin-top: 10px;
+	width: 100%;
+	font-size:25pt;
+}
+
 .mu-title-area {
 	display: inline;
 	float: left;
@@ -436,8 +445,10 @@ button:focus {
 .mu-about-right {
 	display: inline;
 	float: left;
+	text-align: justify;
 	margin-top: 30px;
 	width: 100%;
+	font-size:12pt;
 }
 
 
