@@ -1,464 +1,946 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Parikshit Pareek</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PARIKSHIT: Home</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Slick slider -->
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts -->
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Open Sans for body font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+	<!-- Montserrat for title -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+ 
+ 
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	
+  	<!-- Start Header -->
+	<header id="mu-hero" class="" role="banner">
+		<!-- Start menu  -->
+		<nav class="navbar navbar-fixed-top navbar-default mu-navbar">
+		  	<div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+			      <!-- Logo -->
+			      <a class="navbar-brand" href="index.html">Eventoz</a>
 
-  <!-- =======================================================
-    Theme Name: DevFolio
-    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-</head>
+			    </div>
 
-<body id="page-top">
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      	<ul class="nav navbar-nav mu-menu navbar-right">
+			      		<li><a href="#mu-hero">Home</a></li>
+				        <li><a href="#mu-about">About Us</a></li>
+				        <li><a href="#mu-schedule">Schedule</a></li>
+			            <li><a href="#mu-speakers">Speakers</a></li>
+			            <li><a href="#mu-pricing">Price</a></li>
+			            <li><a href="#mu-register">Register</a></li>
+			            <li><a href="#mu-sponsors">Sponsors</a></li>
+			            <li><a href="#mu-contact">Contact</a></li>
+			      	</ul>
+			    </div><!-- /.navbar-collapse -->
+		  	</div><!-- /.container-fluid -->
+		</nav>
+		<!-- End menu -->
 
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top"></a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
+		<div class="mu-hero-overlay">
+			<div class="container">
+				<div class="mu-hero-area">
 
-          <!-- <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-           -->
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <!--li class="nav-item">
-            <a class="nav-link js-scroll" href="#employment-history">Employment</a>
-          </li>-->
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#academic-qualifications">Qualifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#research-interests">Research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#publications">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#professional-awards">Awards</a>
-          </li>
-          <!--<li class="nav-item">
-            <a class="nav-link js-scroll" href="#students">Students</a>
-          </li>-->
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
+					<!-- Start hero featured area -->
+					<div class="mu-hero-featured-area">
+						<!-- Start center Logo -->
+						<div class="mu-logo-area">
+							<!-- text based logo -->
+							<a class="mu-logo" href="#">Eventoz</a>
+							<!-- image based logo -->
+							<!-- <a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a> -->
+						</div>
+						<!-- End center Logo -->
 
-  <!--/ Intro Skew Star /-->
-  <!-- <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <h1 class="intro-title mb-4">I am Morgan Freeman</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!--/ Intro Skew End /-->
+						<div class="mu-hero-featured-content">
 
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/hung.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7">
-                    <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>NGUYEN Hung Dinh</span></p>
-                      <!-- <p><span class="title-s">Profile: </span> <span>Giao su dai hoc</span></p> -->
-                      <p><span class="title-s">Email: </span> <span>hunghtd@ntu.edu.sg</span></p>
-                      <p><span class="title-s">Phone: </span> <span>(65)67904509</span></p>
-                    </div>
-                  </div>
-                </div>
-                <!-- <div class="skill-mf">
-                  <p class="title-s">Skill</p>
-                  <span>HTML</span> <span class="pull-right">85%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>CSS3</span> <span class="pull-right">75%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>PHP</span> <span class="pull-right">50%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div> -->
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      About me
-                    </h5>
-                  </div>
-                  <p class="">
-                    Assistant Professor, School of EEE, NTU <br/>
-                    Cluster Director of Power Systems, ERIAN
-                  </p>
+							<h1>HELLO! WELCOME TO EVENTOZ</h1>
+							<h2>The Biggest International IT Professional Conference</h2>
+							<p class="mu-event-date-line">19 - 21 February, 2018. New York, USA</p>
 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+							<div class="mu-event-counter-area">
+								<div id="mu-event-counter">
+									
+								</div>
+							</div>
 
+						</div>
+					</div>
+					<!-- End hero featured area -->
 
-  <section id="employment-history" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-          <div class="title-box text-left">
-            <h5 class="title-left">
-              Employment History
-            </h5>
-          </div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+	
+	<!-- Start main content -->
+	<main role="main">
+		<!-- Start About -->
+		<section id="mu-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-about-area">
+							<!-- Start Feature Content -->
+							<div class="row">
+								<div class="col-md-6">
+									<div class="mu-about-left">
+										<img class="" src="assets/images/about.jpg" alt="Men Speaker">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mu-about-right">
+										<h2>About The Conference</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aliquam distinctio magni enim error commodi suscipit nobis alias nulla, itaque ex, vitae repellat amet neque est voluptatem iure maxime eius!</p>
 
-          <ul>
-            <li>
-              Jan 2019 – Dec 2020:&nbsp;&nbsp;Cluster Director of Power Systems, ERIAN
-            </li>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus in accusamus qui sequi nisi, sint magni, ipsam, porro nesciunt id veritatis quaerat ipsum consequatur laborum, provident veniam quibusdam placeat quam?</p>
 
-            <li>
-              Feb 2018 – Jan 2019:&nbsp;&nbsp;Assistant Professor, School of Electrical & Electronic Engineering, NTU.
-            </li>
-            <li>
-              Mar 2018 – Jul 2018:&nbsp;&nbsp;Visiting Scientist, Department of Mechanical Engineering, MIT
-            </li>
-            <li>
-              Oct 2017 – Nov 2017:&nbsp;&nbsp;Postdoctoral Associate, Department of Mechanical Engineering, MIT
-            </li>
-            <li>
-              Jan 2013 – Jul 2013:&nbsp;&nbsp;Instrument and System Engineer, Daelim Corporation, Seoul, South Korea.
-            </li>
-          </ul>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perspiciatis magni omnis excepturi, cumque reiciendis.</p>
+									</div>
+								</div>
+							</div>
+							<!-- End Feature Content -->
 
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End About -->
 
-  <section id="academic-qualifications" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-          <div class="title-box text-left">
-            <h5 class="title-left">
-              Academic Qualifications
-            </h5>
-          </div>
+		<!-- Start Video -->
+		<section id="mu-video">
+			<div class="mu-video-overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-video-area">
+								<h2>Watch Previous Event Video</h2>
+								<a class="mu-video-play-btn" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-          <ul>
-            <li>
-              2013-2017 - PhD, Massachusetts Institute of Technology, USA.
-            </li>
+			<!-- Start Video content -->
+			<div class="mu-video-content">
+				<div class="mu-video-iframe-area">
+					<a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+					<iframe width="854" height="480" src="https://www.youtube.com/embed/n9AVEl9764s" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<!-- End Video content -->
 
-            <li>
-              2010-2012 - MS, Seoul National University, South Korea.
-            </li>
-            <li>
-              2004-2009 - BS, Hanoi University of Technology, Vietnam.
-            </li>
+		</section>
+		<!-- End Video -->
 
-          </ul>
+		<!-- Start Schedule  -->
+		<section id="mu-schedule">
+			<div class="container">
+				<div class="row">
+					<div class="colo-md-12">
+						<div class="mu-schedule-area">
 
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
+							<div class="mu-title-area">
+								<h2 class="mu-title">Schedule Detail</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+							</div>
 
-  <section id="research-interests" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-          <div class="title-box text-left">
-            <h5 class="title-left">
-              Research Interests
-            </h5>
-          </div>
+							<div class="mu-schedule-content-area">
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
+								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 Day / 19 Feb</a></li>
+								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 20 Feb</a></li>
+								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li>
+								    
+								</ul>
 
-          <p class="">
+								<!-- Tab panes -->
+								<div class="tab-content mu-schedule-content">
+								    <div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
+								    	<ul>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">9.00 AM</p>
+								    				<h3>Breakfast</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
+								    				<p class="mu-event-time">10.00 AM</p>
+								    				<h3>Advanced SVG Animations</h3>
+								    				<span>By Karl Groves</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
+								    				<p class="mu-event-time">11.00 AM</p>
+								    				<h3>Presenting Work with Confidence</h3>
+								    				<span>By Sarah Dransner</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
+								    				<p class="mu-event-time">12.00 AM</p>
+								    				<h3>Keynote on UX & UI Design</h3>
+								    				<span>By Ned Stark</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">1.00 PM</p>
+								    				<h3>The End</h3>
+								    			</div>
+								    		</li>
+								    	</ul>
+								    </div>
+								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
+								    	<ul>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">9.00 AM</p>
+								    				<h3>Breakfast</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
+								    				<p class="mu-event-time">10.00 AM</p>
+								    				<h3>Advanced SVG Animations</h3>
+								    				<span>By Karl Groves</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
+								    				<p class="mu-event-time">11.00 AM</p>
+								    				<h3>Presenting Work with Confidence</h3>
+								    				<span>By Sarah Dransner</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
+								    				<p class="mu-event-time">12.00 AM</p>
+								    				<h3>Keynote on UX & UI Design</h3>
+								    				<span>By Ned Stark</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">1.00 PM</p>
+								    				<h3>The End</h3>
+								    			</div>
+								    		</li>
+								    	</ul>
+								    </div>
+								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="third-day">
+								    	<ul>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">9.00 AM</p>
+								    				<h3>Breakfast</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
+								    				<p class="mu-event-time">10.00 AM</p>
+								    				<h3>Advanced SVG Animations</h3>
+								    				<span>By Karl Groves</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
+								    				<p class="mu-event-time">11.00 AM</p>
+								    				<h3>Presenting Work with Confidence</h3>
+								    				<span>By Sarah Dransner</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
+								    				<p class="mu-event-time">12.00 AM</p>
+								    				<h3>Keynote on UX & UI Design</h3>
+								    				<span>By Ned Stark</span>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">1.00 PM</p>
+								    				<h3>The End</h3>
+								    			</div>
+								    		</li>
+								    	</ul>
+								    </div>
+								    
+								</div>
 
-            Health Magament System; Digital Twin; Online Optimization and Controls; Power Distribution Operation; Resilience of critical infrastructure; Electric vehicles; Electric power system analysis, optimization, operation, and control; Security and stability assessment; Renewables integration
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Schedule -->
 
-          </p>
+		<!-- Start Speakers -->
+		<section id="mu-speakers">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-speakers-area">
 
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
+							<div class="mu-title-area">
+								<h2 class="mu-title">Our Speakers</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+							</div>
 
-  <section id="publications" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-          <div class="title-box text-left">
-            <h5 class="title-left">
-              10 Most Important Publications
-            </h5>
-          </div>
+							<!-- Start Speakers Content -->
+							<div class="mu-speakers-content">
 
-          <ol>
-            <li>
-              Hung Dinh Nguyen; Krishnamurthy Dvijotham; Suhyoun Yu; Konstantin Turitsyn, <a href="https://arxiv.org/pdf/1705.05774" target="_blank"> “A Framework for Robust Long-Term Voltage Stability of Distribution Systems”</a>, IEEE Transactions on Smart Grid, DOI: 10.1109/TSG.2018.2869032.
-            </li>
-            <li>
-              Hung Dinh Nguyen; Krishnamurthy Dvijotham; Konstantin Turitsyn. “Constructing Convex Inner Approximations of Steady-State Security Regions”, IEEE Transactions on Power Systems, DOI: 10.1109/TPWRS.2018.2868752.
-            </li>
-            <li>
-              P Pareek, K Turitsyn, K Dvijotham, HD Nguyen, “A Sufficient Condition for Small-Signal Stability and Construction of Robust Stability Region”, IEEE PESGM, 2019, accepted.
-            </li>
-            <li>
-              Nguyen HD; Vu TL; Turitsyn K; Slotine JJ. “Contraction and Robustness of Continuous Time Primal-Dual Dynamics”, IEEE Control Systems Letters, 2(4), 0, 2018.
-            </li>
-            <li>
-              D. Krishnamurthy; H. Nguyen and K. Turitsyn. “Solvability regions of affinely parameterized quadratic equations”, IEEE Control Systems Letters 2.1 , 25– 30, 2018.
-            </li>
-            <li>
-              T. L. Vu; H. D. Nguyen; A. Megretski;  J. J. Slotine and K. Turitsyn, “Inverse Stability Problem and Applications to Renewables Integration”. IEEE Control Systems Letters 2.1, 133 – 138, 2018.
-            </li>
-            <li>
-              1.  Zheng Zhang, Hung Dinh Nguyen, Konstantin Turitsyn and Luca Daniel, “Probabilistic Power Flow Computation via Low-Rank and Sparse Tensor Recovery”, arXiv preprint arXiv:1508.02489.
-            </li>
-            <li>
-              Hung Dinh Nguyen, Long Vu, Jean-Jacques Slotine, Konstantin Turitsyn, “Contraction Analysis for Differential Algebraic Equation Systems”, IEEE Transactions on Automatic Control, 3rd revision, arXiv preprint arXiv:1702.07421
-            </li>
-            <li>
-              H. D. Nguyen and K. Turitsyn, "Robust Stability Assessment in the Presence of Load Dynamics Uncertainty," in IEEE Transactions on Power Systems, vol. 31, no. 2, pp. 1579-1594, March 2016
-            </li>
-            <li>
-              S. Yu, H. D. Nguyen and K. S. Turitsyn, "Simple certificate of solvability of power flow equations for distribution systems," 2015 IEEE Power & Energy Society General Meeting, Denver, CO, 2015, pp. 1-5.
-            </li>
-          </ol>
+								<div class="mu-speakers-slider">
 
+									<!-- Start single speaker -->
+									<div class="mu-single-speakers">
+										<img src="assets/images/speaker-1.jpg" alt="speaker img">
+										<div class="mu-single-speakers-info">
+											<h3>Karl Groves</h3>
+											<p>Digital Artist</p>
+											<ul class="mu-single-speakers-social">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- End single speaker -->
 
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="other-publications" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-          <div class="title-box text-left">
-            <h5 class="title-left">
-              Other Publications
-            </h5>
-          </div>
-
-          <ol>
-            <li>
-            Dongchan Lee, Hung D Nguyen, Krishnamurthy Dvijotham, Konstantin Turitsyn, “Convex Restriction of Power Flow Feasibility Set”, TCNS, 2nd revision, 2018, arXiv preprint arXiv:1803.00818
-            </li>
-            <li>
-            D. Mehta, H. D. Nguyen and K. Turitsyn, "Numerical polynomial homotopy continuation method to locate all the power flow solutions," in IET Generation, Transmission & Distribution, vol. 10, no. 12, pp. 2972-2980, 9 2 2016.
-            </li>
-            <li>
-            H. D. Nguyen and K. Turitsyn, "Voltage Multistability and Pulse Emergency Control for Distribution System
-            With Power Flow Reversal," in IEEE Transactions on Smart Grid, vol. 6, no. 6, pp. 2985-2996, Nov. 2015.
-            </li>
-            <li>
-            Hung Nguyen Dinh, Minh Y Nguyen, Yong Tae Yoon, “A new approach for corrective and preventive control to unsolvable case in power networks having DERs,” Journal of Electrical Engineering & Technology, vol. 8, no. 3, pp. 411-420, May 2013
-            </li>
-            <li>
-            Hung Nguyen Dinh, Yong Tae Yoon, “Novel Techniques for Real Time Computing Critical Clearing Time SIME-B and CCS-B,” Journal of Electrical Engineering & Technology, Vol. 8, No. 2: 197-205, 2013
-            </li>
-            <li>
-            Minh Y Nguyen, Hung Nguyen Dinh, Yong Tae Yoon,“A New Battery Approach toWind Generation System in Frequency Control Market,” Journal of Electrical Engineering & Technology, Volume 8, Issue 4, pp.667-674, 2013
-            </li>
-            <li>
-            Nguyen Minh Y., Hung Dinh Nguyen, Yong Tae Yoon. "A new battery energy storage charging/discharging scheme for wind power producers in real-time markets." Energies, 5.12 (2012): 5439-5452.
-            </li>
-            <li>
-            H. D. Nguyen and K. S. Turitsyn, “Voltage Multistability and Pulse Emergency Control for Distribution System with Power Flow Reversal”, IEEE International Conference on Sustainable Energy Technologies, Hanoi, 2016
-            </li>
-            <li>
-            Krishnamurthy Dvijotham, Konstantin Turitsyn, Suhyoun Yu and Hung Nguyen, “Construction of inner feasible approximations for AC power flow”, INFORMS Computing Society (ICS), Austin, TX, 2017.
-            </li>
-            <li>
-            H. D. Nguyen and K. S. Turitsyn, "Appearance of multiple stable load flow solutions under power flow reversal conditions," 2014 IEEE PES General Meeting / Conference & Exposition, National Harbor, MD, 2014, pp. 1-5.
-            </li>
-            <li>
-            H. N. Dinh and Y. T. Yoon, "A novel method for solving the divergence of power flow and controlling voltage in integrated distributed generators network," 2012 IEEE Power and Energy Society General Meeting, San Diego, CA, 2012, pp. 1-5.
-            </li>
-            <li>
-            Nguyen Dinh Hung, Yoon Yong Tae, “Sphere of Influence for localizing the network,” KIEE Summer Conference, Korea, 2012
-            </li>
-            <li>
-            Nguyen Dinh Hung, Nguyen Minh Y, Nguyen Van Thang, Kim Tae Won, Kim Kern Jong, Yoon Yong Tae, “Load flow and voltage control problem for integrated DGs network”, KIEE Summer Conference, Korea, 2011
-            </li>
-            <li>
-            Nguyen Dinh Hung, Yoon Yong Tae, “Two Novel Methods for Real Time Determining Critical Clearing Time SIME-B and CCS-B Based on Clustering Identification,” ISMS, 3rd Conference on Intelligent Systems, Modeling and Simulation, Malaysia, 2012
-            </li>
-            <li>
-            Nguyen Dinh Hung, Kim Tae Won, Kim Kern Jong, Yoon Yong Tae , “Vibration absorber for measurement devices in SCADA systems,” KIEE Fall Conference, Korea, 2011
-            </li>
-          </ol>
-
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="professional-awards" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-          <div class="title-box text-left">
-            <h5 class="title-left">
-              Professional Awards
-            </h5>
-          </div>
-
-          <ul>
-            <li>
-              2019&nbsp;&nbsp;&nbsp;&nbsp;MOE, Stochastic Optimization and Functional Learning Algorithm for Optimal Energy Storage Sizing (PI, amount: $85,000)
-            </li>
-            <li>
-              2019&nbsp;&nbsp;&nbsp;&nbsp;RR@NTU Corp Lab, Power System Health Management (SHM) (Co-PI, amount: $769,929)
-            </li>
-            <li>
-              2019&nbsp;&nbsp;&nbsp;&nbsp;ERIAN, DERMS: Distributed Energy Resource Management System (Co-PI, amount: TBA)
-            </li>
-            <li>
-              2018&nbsp;&nbsp;&nbsp;&nbsp;NTU SUG, Enhancing the Resilience of Interdependent Critical Infrastructures (PI, amount: S$300,000)
-            </li>
-            <li>
-              2017&nbsp;&nbsp;&nbsp;&nbsp;Siebel Scholars
-            </li>
-          </ul>
-
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="students" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-          <div class="title-box text-left">
-            <h5 class="title-left">
-              Current Post-doctorates and PhD students
-            </h5>
-          </div>
-
-          <ul>
-            <li>
-              Zhai Chao&nbsp;&nbsp;&nbsp;&nbsp;Post-doctorate (SUG, M6 Chair account)
-            </li>
-            <li>
-              Yang Liu &nbsp;&nbsp;&nbsp;&nbsp;Post-doctorate (SUG, M6 Chair account)
-            </li>
-            <li>
-              Weng Yu&nbsp;&nbsp;&nbsp;&nbsp;PhD student (SUG, RSS)
-            </li>
-            <li>
-              Pareek Parikshit&nbsp;&nbsp;&nbsp;&nbsp;PhD student (SUG, RSS)
-            </li>
-            <li>
-              Logesh Kumar&nbsp;&nbsp;&nbsp;&nbsp;PhD student (RR@NTU)
-            </li>
-          </ul>
-
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
+									<!-- Start single speaker -->
+									<div class="mu-single-speakers">
+										<img src="assets/images/speaker-2.jpg" alt="speaker img">
+										<div class="mu-single-speakers-info">
+											<h3>Sarah Dransner</h3>
+											<p>Business Consultant</p>
+											<ul class="mu-single-speakers-social">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- End single speaker -->
 
 
+									<!-- Start single speaker -->
+									<div class="mu-single-speakers">
+										<img src="assets/images/speaker-3.jpg" alt="speaker img">
+										<div class="mu-single-speakers-info">
+											<h3>Ned Stark</h3>
+											<p>UI/UX Specialist</p>
+											<ul class="mu-single-speakers-social">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- End single speaker -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+									<!-- Start single speaker -->
+									<div class="mu-single-speakers">
+										<img src="assets/images/speaker-4.jpg" alt="speaker img">
+										<div class="mu-single-speakers-info">
+											<h3>Michaela Lehr </h3>
+											<p>Digital Marketer</p>
+											<ul class="mu-single-speakers-social">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- End single speaker -->
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+									<!-- Start single speaker -->
+									<div class="mu-single-speakers">
+										<img src="assets/images/speaker-1.jpg" alt="speaker img">
+										<div class="mu-single-speakers-info">
+											<h3>Karl Groves</h3>
+											<p>Digital Artist</p>
+											<ul class="mu-single-speakers-social">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- End single speaker -->
 
-</body>
+									<!-- Start single speaker -->
+									<div class="mu-single-speakers">
+										<img src="assets/images/speaker-2.jpg" alt="speaker img">
+										<div class="mu-single-speakers-info">
+											<h3>Sarah Dransner</h3>
+											<p>Business Consultant</p>
+											<ul class="mu-single-speakers-social">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- End single speaker -->
+
+
+									<!-- Start single speaker -->
+									<div class="mu-single-speakers">
+										<img src="assets/images/speaker-3.jpg" alt="speaker img">
+										<div class="mu-single-speakers-info">
+											<h3>Ned Stark</h3>
+											<p>UI/UX Specialist</p>
+											<ul class="mu-single-speakers-social">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- End single speaker -->
+
+
+									<!-- Start single speaker -->
+									<div class="mu-single-speakers">
+										<img src="assets/images/speaker-4.jpg" alt="speaker img">
+										<div class="mu-single-speakers-info">
+											<h3>Michaela Lehr </h3>
+											<p>Digital Marketer</p>
+											<ul class="mu-single-speakers-social">
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+											</ul>
+										</div>
+									</div>
+									<!-- End single speaker -->
+								</div>
+							</div>
+							<!-- End Speakers Content -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Speakers -->
+
+		<!-- Start Venue -->
+		<section id="mu-venue">
+			<div class="mu-venue-area">
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="mu-venue-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.8176744277202!2d-81.47150788457147!3d28.424757900613237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e378ec5a9a9%3A0x2feec9271ed22c5b!2sOrange+County+Convention+Center!5e0!3m2!1sen!2sbd!4v1503833952781" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="mu-venue-address">
+							<h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
+							<h3>Orange County Convention Center</h3>
+							<h4>9800 International Dr, Orlando, FL 32819, USA</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem reiciendis incidunt accusantium porro amet repellendus hic corporis fugiat officiis, sequi iste distinctio possimus dignissimos, veniam quae delectus. Fuga, modi, perferendis!</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End Venue -->
+
+		<!-- Start Pricing  -->
+		<section id="mu-pricing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-pricing-area">
+							
+							<div class="mu-title-area">
+								<h2 class="mu-title">Pricing plans</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+							</div>
+							
+							<div class="mu-pricing-conten">
+								<div class="row">
+									
+									<!-- single price item -->
+									<div class="col-md-4">
+										<div class="mu-single-price">
+
+											<div class="mu-single-price-head">
+												<span class="mu-currency">$</span>
+												<span class="mu-rate">12</span>
+												<span class="mu-time">/all days</span>
+											</div>
+											<h3 class="mu-price-title">BASIC</h3>
+											<ul>
+												<li>Basic Class Ticket</li>
+												<li>Access to all sessions</li>
+												<li>Free Breakfast</li>
+											</ul>
+											<a class="mu-register-btn" href="#"> Register Now</a>
+										</div>
+									</div>
+									<!-- / single price item -->
+
+									<!-- single price item -->
+									<div class="col-md-4">
+										<div class="mu-single-price mu-popular-price">
+											<span class="mu-price-tag">Popular</span>
+											<div class="mu-single-price-head">
+												<span class="mu-currency">$</span>
+												<span class="mu-rate">22</span>
+												<span class="mu-time">/all days</span>
+											</div>
+											<h3 class="mu-price-title">STANDARD</h3>
+											<ul>
+												<li>Basic Class Ticket</li>
+												<li>Access to all sessions</li>
+												<li>Free Breakfast</li>
+											</ul>
+											<a class="mu-register-btn" href="#"> Register Now</a>
+										</div>
+									</div>
+									<!-- / single price item -->
+
+									<!-- single price item -->
+									<div class="col-md-4">
+										<div class="mu-single-price">
+
+											<div class="mu-single-price-head">
+												<span class="mu-currency">$</span>
+												<span class="mu-rate">45</span>
+												<span class="mu-time">/all days</span>
+											</div>
+											<h3 class="mu-price-title">PREMIUM</h3>
+											<ul>
+												<li>Basic Class Ticket</li>
+												<li>Access to all sessions</li>
+												<li>Free Breakfast</li>
+											</ul>
+											<a class="mu-register-btn" href="#"> Register Now</a>
+										</div>
+									</div>
+									<!-- / single price item -->
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Pricing -->
+
+		<!-- Start Register  -->
+		<section id="mu-register">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-register-area">
+
+							<div class="mu-title-area">
+								<h2 class="mu-title">Register Form</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+							</div>
+
+							<div class="mu-register-content">
+								<form class="mu-register-form">
+
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">                
+												<input type="text" class="form-control" placeholder="Your Full Name" id="name" name="name" required="">
+											</div>
+										</div>
+
+										<div class="col-md-6">
+											<div class="form-group">                
+												<input type="email" class="form-control" placeholder="Enter Your Email" id="email" name="email" required="">
+											</div>     
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">                
+												<input type="text" class="form-control" placeholder="Your Phone Number" id="telephone" name="telephone" required="">
+											</div>
+										</div>
+										<div class="col-md-6">
+											
+										<div class="form-group"> 
+											<select class="form-control" name="ticket" id="ticket">
+												<option value="0">Basic ($12)</option>
+												<option value="1">Standard ($22)</option>
+												<option value="2">Premium ($45)</option>
+											</select>
+										</div>      
+										</div>
+									</div>
+
+									<button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
+
+					            </form>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Register -->
+
+		<!-- Start FAQ -->
+		<section id="mu-faq">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-faq-area">
+
+							<div class="mu-title-area">
+								<h2 class="mu-title">FAQ</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
+							</div>
+
+							<div class="mu-faq-content">
+
+								<div class="panel-group" id="accordion">
+
+							        <div class="panel panel-default">
+							          <div class="panel-heading">
+							            <h4 class="panel-title">
+							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
+							                <span class="fa fa-angle-down"></span> Lorem ipsum dolor sit amet.
+							              </a>
+							            </h4>
+							          </div>
+							          <div id="collapseOne" class="panel-collapse collapse in">
+							            <div class="panel-body">
+							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							            </div>
+							          </div>
+							        </div>
+
+							        <div class="panel panel-default">
+							          <div class="panel-heading">
+							            <h4 class="panel-title">
+							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							              </a>
+							            </h4>
+							          </div>
+							          <div id="collapseTwo" class="panel-collapse collapse">
+							            <div class="panel-body">
+							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							            </div>
+							          </div>
+							        </div>
+
+							        <div class="panel panel-default">
+							          <div class="panel-heading">
+							            <h4 class="panel-title">
+							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur. 
+							              </a>
+							            </h4>
+							          </div>
+							          <div id="collapseThree" class="panel-collapse collapse">
+							            <div class="panel-body">
+							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							            </div>
+							          </div>
+							        </div>
+
+							        <div class="panel panel-default">
+							          <div class="panel-heading">
+							            <h4 class="panel-title">
+							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing. 
+							              </a>
+							            </h4>
+							          </div>
+							          <div id="collapseFour" class="panel-collapse collapse">
+							            <div class="panel-body">
+							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							            </div>
+							          </div>
+							        </div>
+
+							        <div class="panel panel-default">
+							          <div class="panel-heading">
+							            <h4 class="panel-title">
+							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur. 
+							              </a>
+							            </h4>
+							          </div>
+							          <div id="collapseFive" class="panel-collapse collapse">
+							            <div class="panel-body">
+							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							            </div>
+							          </div>
+							        </div>
+
+
+							    </div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End FAQ -->
+
+		<!-- Start Sponsors -->
+		<section id="mu-sponsors">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-sponsors-area">
+							
+							<div class="mu-title-area">
+								<h2 class="mu-title">Our Sponsors</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
+							</div>
+							
+							<!-- Start spnonsors brand logo -->
+							<div class="mu-sponsors-content">
+								<div class="row">
+								
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-4.png" alt="Brand Logo">
+										</div>
+									</div>
+
+										<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-5.png" alt="Brand Logo">
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-6.png" alt="Brand Logo">
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-7.png" alt="Brand Logo">
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-8.png" alt="Brand Logo">
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-9.png" alt="Brand Logo">
+										</div>
+									</div>
+
+										<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
+										</div>
+									</div>
+
+									<div class="col-md-2 col-sm-4 col-xs-4">
+										<div class="mu-sponsors-single">
+											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<!-- End spnonsors brand logo -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Sponsors -->
+
+
+		<!-- Start Contact -->
+		<section id="mu-contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-contact-area">
+
+							<div class="mu-title-area">
+								<h2 class="mu-heading-title">Contact Us</h2>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+							</div>
+
+							<!-- Start Contact Content -->
+							<div class="mu-contact-content">
+								<div class="row">
+
+								<div class="col-md-12">
+									<div class="mu-contact-form-area">
+										<div id="form-messages"></div>
+											<form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
+												<div class="form-group">                
+													<input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
+												</div>
+												<div class="form-group">                
+													<input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
+												</div>              
+												<div class="form-group">
+													<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
+												</div>
+												<button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
+								            </form>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End Contact Content -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact -->
+
+	</main>
+	
+	<!-- End main content -->	
+			
+			
+	<!-- Start footer -->
+	<footer id="mu-footer" role="contentinfo">
+			<div class="container">
+				<div class="mu-footer-area">
+					<div class="mu-footer-top">
+						<div class="mu-social-media">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="#"><i class="fa fa-youtube"></i></a>
+						</div>
+					</div>
+					<div class="mu-footer-bottom">
+						<p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. All right reserved.</p>
+					</div>
+				</div>
+			</div>
+
+	</footer>
+	<!-- End footer -->
+
+	
+	
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+	<!-- Slick slider -->
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <!-- Event Counter -->
+    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+    <!-- Ajax contact form  -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+  
+       
+	
+    <!-- Custom js -->
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+
+	
+	
+    
+  </body>
 </html>
