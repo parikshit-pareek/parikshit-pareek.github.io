@@ -94,7 +94,7 @@
     background-image: url(img/bg-travel.jpg);
     background-size: 100% 100%;
     padding: 205px 280px;
-	position: relative;
+	background-repeat: no-repeat;
 }
 
 .wrapper section.bg-text-area .container {}
