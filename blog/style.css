@@ -88,11 +88,13 @@
     background-image: url(img/bg-iamges.jpg);
     background-size: 100% 100%;
     padding: 205px 280px;
+	
 }
 .wrapper section.bg-text-area-travel .bg-text {
     background-image: url(img/bg-travel.jpg);
     background-size: 100% 100%;
     padding: 205px 280px;
+	position: relative;
 }
 
 .wrapper section.bg-text-area .container {}
@@ -116,6 +118,7 @@
     text-transform: uppercase;
     margin: 0px;
 	margin-top: -55px;
+	position: relative;
 }
 
 .wrapper section.bg-text-area-travel .bg-text p {
@@ -126,6 +129,7 @@
     line-height: 33px;
     margin: 32px 0 0;
     text-align: center;
+	position: relative;
 }
 
 .wrapper section.bg-text-area .bg-text p {
