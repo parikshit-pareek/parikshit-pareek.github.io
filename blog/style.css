@@ -89,6 +89,11 @@
     background-size: 100% 100%;
     padding: 205px 280px;
 }
+.wrapper section.bg-text-area-travel .bg-text {
+    background-image: url(img/bg-travel.jpg);
+    background-size: 100% 100%;
+    padding: 205px 280px;
+}
 
 .wrapper section.bg-text-area .container {}
 
@@ -100,6 +105,27 @@
     text-align: center;
     text-transform: uppercase;
     margin: 0;
+}
+
+.wrapper section.bg-text-area-travel .bg-text h3 {
+    color: #FFFFFF;
+    font-family: Geometria;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+	margin-top: -55px;
+}
+
+.wrapper section.bg-text-area-travel .bg-text p {
+    color: #FFFFFF;
+    font-family: Geometria;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 33px;
+    margin: 32px 0 0;
+    text-align: center;
 }
 
 .wrapper section.bg-text-area .bg-text p {
