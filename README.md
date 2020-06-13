@@ -1,9 +1,5 @@
 # My Academic Website
 
-## Creative Commons CC BY 4.0 licence 
-
-
-
 ## Credits
 
 To use AR on your site, please add the following code at the end of your website:
