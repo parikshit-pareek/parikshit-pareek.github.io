@@ -2,8 +2,8 @@
 title: Parikshit 
 email: pareek@iitr.ac.in
 description: Academic webpage of Prof. Parikshit Pareek
-baseurl: ""
-url: ""
+baseurl: "https://psquare-lab.github.io"
+url: "https://psquare-lab.github.io"
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
